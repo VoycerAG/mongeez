@@ -31,10 +31,10 @@ public class FormattedJavascriptChangeSetReader implements ChangeSetReader {
     private static final String LINE_COMMENT = "//";
     private static final String FILE_HEADER = "mongeez formatted javascript";
     private static final Pattern FILE_HEADER_PATTERN =
-            Pattern.compile("//\\s*mongeez\\s+formatted\\s+javascript\\s*",
+            Pattern.compile("//\\s*@mongeez\\s+formatted\\s+javascript\\s*",
                     Pattern.CASE_INSENSITIVE);
     private static final Pattern CHANGESET_PATTERN =
-            Pattern.compile("//\\s*changeset\\s+([\\w\\-]+):([\\w\\-]+).*",
+            Pattern.compile("//\\s*@changeset\\s+([\\w\\-]+):([\\w\\-]+).*",
                     Pattern.CASE_INSENSITIVE);
     private static final Pattern ATTRIBUTE_RUN_ALWAYS_PATTERN =
             Pattern.compile(".*runAlways:(\\w+).*",
