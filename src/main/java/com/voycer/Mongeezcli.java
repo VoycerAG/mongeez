@@ -14,7 +14,6 @@ import joptsimple.OptionParser;
 import joptsimple.OptionSet;
 import org.mongeez.Mongeez;
 import org.springframework.core.io.FileSystemResource;
-
 /**
  *
  * @author nwagensonner
@@ -86,7 +85,7 @@ public class Mongeezcli {
             mongeez.process();
         } catch (UnknownHostException ex) {
             Logger.getLogger(Mongeezcli.class.getName()).log(Level.SEVERE, null, ex);
-	    System.err.println(ex.getMessage()); 
+    	    System.err.println(ex.getMessage());
         }
     }
 }
