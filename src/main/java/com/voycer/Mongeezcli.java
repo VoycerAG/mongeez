@@ -1,6 +1,5 @@
 /*
- * (c) 2012 Voycer AG 
- * just a simple runner to get mongeez working in ant
+ * (c) 2013 Voycer AG
  */
 package com.voycer;
 
@@ -15,6 +14,7 @@ import joptsimple.OptionSet;
 import org.mongeez.Mongeez;
 import org.springframework.core.io.FileSystemResource;
 /**
+ * just a start class for the mongeez library
  *
  * @author nwagensonner
  */
