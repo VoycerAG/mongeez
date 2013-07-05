@@ -1,5 +1,5 @@
-//mongeez formatted javascript
-//changeset mlysaght:ChangeSet-1
+//@mongeez formatted javascript
+//@changeset mlysaght:ChangeSet-1
 db.organization.insert({
     "Organization" : "10Gen",
     "Location" : "NYC",
@@ -10,6 +10,6 @@ db.organization.insert({
     "Location" : "NYC",
     DateFounded : {"Year" : 2004, "Month" : 05, "day" :04}
 });
-//changeset mlysaght:ChangeSet-2
+//@changeset mlysaght:ChangeSet-2
 db.user.insert({ "Name" : "Michaël Lyságht"});
 db.user.insert({ "Name" : "Oleksïï Iepishkin"});
