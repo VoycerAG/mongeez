@@ -1,7 +1,7 @@
-//mongeez formatted javascript
-//changeset someuser:cs3 runAlways:true
+//@mongeez formatted javascript
+//@changeset someuser:cs3 runAlways:true
 db.organization.update({Location : "NYC"}, {$set : {Location : "NY"}}, false, true);
-//changeset someotheruser:cs4 runAlways:false
+//@changeset someotheruser:cs4 runAlways:false
 db.organization.find().forEach(function(org) {
     var year = org.DateFounded.Year;
     var month = org.DateFounded.Month;
