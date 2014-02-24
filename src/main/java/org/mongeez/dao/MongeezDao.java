@@ -121,7 +121,7 @@ public class MongeezDao {
     }
 
     public void runScript(String code) {
-        db.eval(code);
+        db.doEval(code, new BasicDBObject("nolock", true));
     }
 
     public void logChangeSet(ChangeSet changeSet) {

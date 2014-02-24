@@ -24,7 +24,7 @@ public class Mongeezcli {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException {       
-        System.out.println("Mongeez CLI Starter Version 1.3 (c) 2013 Voycer AG");
+        System.out.println("Mongeez CLI Starter Version 0.9.4 (c) 2014 Voycer AG");
         Mongeez mongeez = new Mongeez();         
         String hostname = "localhost"; 
         String dbname = null;
