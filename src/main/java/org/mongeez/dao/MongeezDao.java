@@ -117,7 +117,7 @@ public class MongeezDao {
     }
 
     private DBCollection getMongeezCollection() {
-        return db.getCollection("mongeez");
+        return db.getCollection("mongeez").withReadPreference(ReadPreference.secondaryPreferred());
     }
 
     public void runScript(String code) {
