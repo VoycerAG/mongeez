@@ -1,5 +1,6 @@
 # maven files
 /*/target
+dependency-reduced-pom.xml
 /target/
 # test logs
 test-output
