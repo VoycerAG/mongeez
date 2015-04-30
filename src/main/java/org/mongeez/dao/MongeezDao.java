@@ -123,6 +123,7 @@ public class MongeezDao {
     }
 
     public void runScript(String code) {
+        db.setReadPreference(ReadPreference.secondaryPreferred());
         db.doEval(code, new BasicDBObject("nolock", true));
     }
 
